@@ -6,7 +6,7 @@
 /*   By: oaboulgh <oaboulgh@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/11 13:26:33 by oaboulgh          #+#    #+#             */
-/*   Updated: 2023/01/20 16:10:11 by oaboulgh         ###   ########.fr       */
+/*   Updated: 2023/10/15 08:19:15 by oaboulgh         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,6 +25,7 @@ void	initial(t_data *data)
 	data->ox = 900;
 	data->oy = 450;
 	data->color = 0xFFFFFF;
+	data->saver = NULL;
 	data->flag = 0;
 }
 
